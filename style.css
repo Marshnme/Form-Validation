@@ -1,0 +1,52 @@
+*{
+    border:1px solid black ;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header{
+    padding: 2rem;
+}
+
+main{
+    padding:0 4rem;
+    border-radius: 10px;
+}
+
+footer{
+    padding:2rem;
+}
+
+
+/* form css */
+form{
+    display: flex;
+    flex-flow:column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    align-self: flex-start;
+}
+
+form > input {
+    margin-bottom:1rem;
+}
+
+button{
+    padding:.5rem 2rem;
+}
