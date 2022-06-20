@@ -33,15 +33,27 @@ footer{
     padding:2rem;
 }
 
+h2{
+    margin-bottom:1.5rem;
+}
+
 input,select{
     width:100%;
     /* box-sizing: border-box; */
+    border: 0px solid black;
+    border-bottom: 1px solid blue;
+    padding-bottom:.5rem;
+}
+
+input:focus:valid {
+    outline: none;
 }
 
 
 /* form css */
 form{
-    border-radius: 10px;
+    /* background-color: rgba(126, 126, 126, 0.685); */
+    border-radius: 25px;
     padding:2rem 5rem; 
     display: flex;
     flex-flow:column nowrap;
@@ -66,4 +78,35 @@ button{
 
 .country-select{
     /* width:50%; */
+}
+
+
+/* error styles */
+
+input:invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+  
+input:focus:invalid {
+    outline: none;
+}
+  
+
+.error {
+    width  : 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+    margin-top:-1rem;
+    margin-bottom:1rem;
+}
+  
+.error.active {
+    padding: 0.3em;
 }
