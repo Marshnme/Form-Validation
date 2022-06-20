@@ -34,7 +34,7 @@ footer{
 }
 
 h2{
-    margin-bottom:1.5rem;
+    margin-bottom:1rem;
 }
 
 input,select{
@@ -59,7 +59,7 @@ form{
     flex-flow:column nowrap;
     align-items: center;
     justify-content: center;
-    max-width: 80%;
+    width: 60%;
     border:1px solid black;
 }
 
@@ -73,7 +73,8 @@ form > input, form > select {
 }
 
 button{
-    padding:.5rem 2rem;
+    padding:1rem 4rem;
+    border-radius: 10px;
 }
 
 .country-select{
